@@ -1,0 +1,46 @@
+html {
+    margin : 0;
+    padding :0;
+}
+body {
+  font-family: arial;
+    background-color: #2F4F4F;
+    height:100vh;
+  }
+
+  .container-judul{
+    font-family: arial;
+    text-align:center;
+    color: lightskyblue;
+  }
+.container-isi ul li {
+  display: inline-block;
+}
+
+.container-isi {
+  text-align: center;
+}
+
+.container-isi a {
+  text-decoration: none;
+	color: lightskyblue;
+	padding: 3px;
+}
+
+.container-isi a:hover {
+  background-color: salmon;
+  color: #eaeaea;
+}
+
+.container-content {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.isi {
+  text-align: center;
+  font-family: Arial;
+  color: white;
+}
